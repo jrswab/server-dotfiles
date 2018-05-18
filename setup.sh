@@ -9,7 +9,7 @@ fi
 
 dpkg -s git &> /dev/null
 if [ $? -eq 0 ]; then
-    echo "Git  is installed!"
+    echo "Git is installed!"
 else
 	sudo apt install git
 fi
